@@ -7,11 +7,11 @@
 
 <?php
 
- $db_user=trim(file_get_contents('user.txt')):null;
- $db_pass=trim(file_get_contents('pass.txt')):null;
- $db_host=trim(file_get_contents('host.txt')):null;
+ $db_user=trim(file_get_contents('user.txt'));
+ $db_pass=trim(file_get_contents('pass.txt'));
+ $db_host=trim(file_get_contents('host.txt'));
 
-  $conn = new mysqli("$db_host:3306", $db_user, $db_pass);
+  $conn = new mysqli("$db_host:3306", "root", "rootroot");
 	
 	
 // Check connection
