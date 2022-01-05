@@ -11,7 +11,7 @@
  $db_pass=trim(file_get_contents('pass.txt'));
  $db_host=trim(file_get_contents('host.txt'));
 
-  $conn = new mysqli("$db_host:3306", "admin", "password");
+  $conn = new mysqli("$db_host:3306", "root", "rootroot");
 	
 	
 // Check connection
